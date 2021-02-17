@@ -1,0 +1,48 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+/* RESET END */
+/* --------------------------------------------------------------- */
+/* COMMON */
+
+.wrapper80 {
+    width: 80%;
+}
+
+.wrapper60 {
+    width: 60%;
+}
+
+.col {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-body {
+    font-weight: 300;
+    font-size: 14px;
+    color: #33475B;
+}
+
+/* COMMON END */
+/* --------------------------------------------------------------- */
+/* HEADER */
