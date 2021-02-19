@@ -82,6 +82,7 @@ h4 {
     text-transform: uppercase;
     color: #33475B;
     font-weight: 700;
+    margin: 25px 0;
 }
 
 .button {
@@ -244,11 +245,10 @@ header .col:nth-of-type(2) {
 
 .main-first-section .wrapper80 .col-two-column p {
     margin-top: 25px;
-    padding-right: 10%;
+    padding-right: 20%;
 } 
 
 .main-first-section .wrapper80 .col-two-column h4 {
-    margin: 25px 0;
     display: inline-block;
 }
 
@@ -256,7 +256,7 @@ header .col:nth-of-type(2) {
     display: inline-block;
     width: 60%;
     vertical-align: middle;
-    margin-left: 5%;
+    margin: 0 5%;
 }
 
 .main-first-section .col-three-column {
@@ -333,7 +333,7 @@ header .col:nth-of-type(2) {
     color: white;
 }
 
-.main-second-section h2:nth-child(1), p {
+.main-second-section h2:first-child {
     margin-bottom: 35px;
 }
 
@@ -361,9 +361,8 @@ header .col:nth-of-type(2) {
     padding: 50px 0;
 }
 
-.main-third-section .wrapper60 p,
-.main-third-section .wrapper60 h2 {
-    text-align: center;
+.main-third-section .wrapper60 p {
+    padding-right: 10%;
 }
 
 .main-third-section li img {
@@ -397,7 +396,7 @@ header .col:nth-of-type(2) {
 
 footer {
     background-color: #32495B;
-    padding: 50px 0;
+    padding-top: 50px;
 }
 
 footer p,
@@ -439,6 +438,10 @@ footer a {
     font-size: 12px;
 }
 
+footer .col-two-column-50 {
+    padding: 25px 0 0 0;
+}
+
 footer .clearfix:last-child .col:last-child {
     text-align: right;
 }
@@ -447,3 +450,5 @@ footer .clearfix:last-child .col:last-child {
     width: 100px;
 }
 
+/* FOOTER END */
+/* --------------------------------------------------------------- */
