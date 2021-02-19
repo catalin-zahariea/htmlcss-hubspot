@@ -160,6 +160,7 @@ header .col:last-child {
 
 /* Header Jumbotron */
 
+
 .header-jumbotron {
     height: 550px;
     background-image: url(../img/jumbotron.png);
@@ -173,7 +174,7 @@ header .col:last-child {
 }
 
 .header-line {
-    height: 84px;
+    height: 83px;
     width: 100%;
     background-color: #B0EBE4;
     border-top: 2px solid #33475B;
@@ -181,14 +182,6 @@ header .col:last-child {
     position: absolute;
     z-index: 1;
     bottom: 0;
-}
-
-.header-jumbotron img {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    right: 0;
 }
 
 .jumbotron-text {
@@ -208,12 +201,10 @@ header .col:last-child {
     margin: 25px 0;
 }
 
-.jumbotron-text a {
+.header-jumbotron .button {
+    display: inline-block;
     color: white;
-}
-
-.header-jumbotron {
-    position: relative;
+    margin: 10px 0;
 }
 
 /* HEADER END */
