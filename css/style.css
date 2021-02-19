@@ -407,7 +407,7 @@ footer h5 {
     line-height: 2.5;
 }
 
-footer .col {
+footer .clearfix:first-child .col {
     width: 25%;
 }
 
@@ -418,8 +418,12 @@ footer .button {
     color: #32495B;
 }
 
-footer .clearfix li {
+footer .clearfix:first-child li {
     display: block;
+}
+
+footer .clearfix:first-child p:last-child {
+    letter-spacing: 10px;
 }
 
 footer .languages {
@@ -428,9 +432,18 @@ footer .languages {
 
 footer .languages hr {
     border: 0.5px solid #DADEE0;
-    margin: 10px 0;
+    margin-top: 10px;
 }
 
 footer a {
     font-size: 12px;
 }
+
+footer .clearfix:last-child .col:last-child {
+    text-align: right;
+}
+
+.footer-logo {
+    width: 100px;
+}
+
