@@ -103,7 +103,7 @@ hr {
     padding: 50px 0;
 }
 
-.clearfix .col-two-column:nth-of-type(2) {
+.clearfix .col-two-column:last-child {
     width: 65%;
     margin-left: 5%;
 }
@@ -127,15 +127,27 @@ hr {
 /* --------------------------------------------------------------- */
 /* HEADER */
 
-header nav {
-    height: 100px;
-}
-
-header .col:nth-of-type(1) {
+.header-logo {
     width: 100px;
 }
 
-header .col:nth-of-type(2) {
+header nav i:before {
+    margin-left: 10px;
+}
+
+header nav li {
+    margin-left: 25px;
+}
+
+header .col-two-column {
+    padding: 20px 0;
+}
+
+header a {
+    color: #33475B;
+}
+
+header .col:last-child {
     text-align: right;
 }
 
