@@ -321,6 +321,10 @@ header .col:last-child {
     color: white;
 }
 
+.main-second-section p {
+    margin-bottom: 35px;
+}
+
 .main-second-section .col {
     width: 25%;
     border-left: 1px solid white;
@@ -369,7 +373,6 @@ header .col:last-child {
 
 .main-third-section {
     background-color: #FFFFFF;
-    padding: 50px 0;
 }
 
 .main-third-section .wrapper60 p {
@@ -377,22 +380,31 @@ header .col:last-child {
 }
 
 .main-third-section li img {
-    width: 125px;
+    width: 100px;
     padding: 10px;
 }
 
+.main-third-section li {
+    vertical-align: middle;
+}
+
 .main-third-section .wrapper80 img {
-    margin: auto;
-    width: 400px;
+    display: inline-block;
+    width: 300px;
+    text-align: right;
+}
+
+.main-third-section .col-two-column-50:last-child {
+    text-align: right;
 }
 
 .main-third-section .wrapper80 p {
     margin: 50px 0;
-    line-height: 1.6;
 }
 
 .main-third-section .wrapper80 p:nth-of-type(2) {
     font-size: 10px;
+    font-weight: 500;
 }
 
 .main-third-section .col-two-column-50:nth-of-type(2) {
@@ -438,6 +450,10 @@ footer .clearfix:first-child p:last-child {
 
 footer .languages {
     text-align: center;
+}
+
+footer .languages li {
+    margin: 25px 10px 0 10px;
 }
 
 footer .languages hr {
