@@ -59,7 +59,7 @@ footer {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .text-body, p {
@@ -101,6 +101,11 @@ h4 {
     border-radius: 5px;
     border: 1px solid #FE7759;
     padding: 15px 25px;
+}
+
+.button-empty {
+    background-color: #EEF3F9;
+    color: #FE775B;
 }
 
 .column-line{
@@ -543,3 +548,31 @@ footer .clearfix:last-child .col:last-child {
 }
 
 /* FIXED ELEMENTS END */
+/* --------------------------------------------------------------- */
+/* HOVER */
+
+.button:hover {
+    background-color: rgba(254, 119, 91, 0.5);
+    box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
+}
+
+.button-empty:hover {
+    color: white;
+}
+
+nav a:hover,
+footer a:hover,
+.fixed-menu .col:first-child a:hover {
+    color: #FE775B;
+}
+
+footer .button:hover {
+    color: #F4F9FD;
+    box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
+}
+
+footer .button:hover {
+    background-color: rgba(244, 249, 253, 0.5);
+    box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
+}
+
