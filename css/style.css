@@ -397,13 +397,12 @@ header .col:last-child {
     padding-right: 10%;
 }
 
-.main-third-section li img {
-    width: 125px;
-    padding: 10px;
-}
-
 .main-third-section li {
     vertical-align: middle;
+    width: 24%;
+    padding: 20px;
+    min-width: 120px;
+    max-width: 150px;
 }
 
 .main-third-section .wrapper80 img {
