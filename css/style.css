@@ -266,10 +266,9 @@ header .col:nth-of-type(2) {
 }
 
 .main-first-section .wrapper80 .col-three-column hr {
-    margin: 25px 0;
+    margin: 25px auto;
     border: 1px solid #899398;
     width: 90%;
-    margin: auto;
 }
 
 .main-first-section .wrapper80 .col-three-column h3 {
@@ -396,7 +395,7 @@ header .col:nth-of-type(2) {
 
 footer {
     background-color: #32495B;
-    padding-top: 50px;
+    padding: 50px 0 25px 0;
 }
 
 footer p,
