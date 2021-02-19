@@ -397,5 +397,40 @@ header .col:nth-of-type(2) {
 
 footer {
     background-color: #32495B;
+    padding: 50px 0;
 }
 
+footer p,
+footer a,
+footer h5 {
+    color: #DADEE0;
+    line-height: 2.5;
+}
+
+footer .col {
+    width: 25%;
+}
+
+footer .button {
+    background-color: #DADEE0;
+    border: 1px solid #DADEE0;
+    padding: 5px 5px;
+    color: #32495B;
+}
+
+footer .clearfix li {
+    display: block;
+}
+
+footer .languages {
+    text-align: center;
+}
+
+footer .languages hr {
+    border: 0.5px solid #DADEE0;
+    margin: 10px 0;
+}
+
+footer a {
+    font-size: 12px;
+}
