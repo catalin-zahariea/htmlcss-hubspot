@@ -96,6 +96,26 @@ hr {
     border: 1px solid #33475B;
 }
 
+.col-two-column {
+    width: 30%;
+    padding: 50px 0;
+}
+
+.clearfix .col-two-column:nth-of-type(2) {
+    width: 65%;
+    margin-left: 5%;
+}
+
+.col-three-column {
+    width: 30%;
+    padding: 50px;
+}
+
+.clearfix .col-three-column:nth-of-type(2) {
+    width: 30%;
+    margin: 0 5%;
+}
+
 /* COMMON END */
 /* --------------------------------------------------------------- */
 /* HEADER */
@@ -208,26 +228,34 @@ header .col:nth-of-type(2) {
     border-radius: 5px;
 }
 
-.main-first-section .col-two-column {
-    width: 30%;
-    padding: 80px 0;
-}
-
 .main-first-section .col-two-column:last-of-type {
-    width: 65%;
-    margin-left: 5%;
     text-align: left;
 }
 
-.main-first-section .col-two-column li,i {
-    padding-right: 15px;
+.main-first-section .col-two-column li {
+    padding-right: 25px;
+}
+
+.main-first-section .wrapper80 .col-two-column p {
+    margin-top: 25px;
+    padding-right: 10%;
+} 
+
+.main-first-section .wrapper80 .col-two-column h4 {
+    margin: 25px 0;
+    display: inline-block;
+}
+
+.main-first-section .wrapper80 .col-two-column hr {
+    display: inline-block;
+    width: 60%;
+    vertical-align: middle;
+    margin-left: 5%;
 }
 
 .main-first-section .col-three-column {
     background-color: #FFFFFF;
     box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
-    width: 30%;
-    padding: 25px;
     border-radius: 5px;
 }
 
@@ -238,8 +266,7 @@ header .col:nth-of-type(2) {
     margin: auto;
 }
 
-.main-first-section .wrapper80 .col-three-column h3, 
-.main-first-section .wrapper80 .col-three-column h4 {
+.main-first-section .wrapper80 .col-three-column h3 {
     margin: 35px 0;
 }
 
@@ -258,10 +285,6 @@ header .col:nth-of-type(2) {
 
 .main-first-section .wrapper80 .col-three-column ul {
     margin-bottom: 50px;
-}
-
-.main-first-section .wrapper80 .col-three-column:nth-child(2) {
-    margin: 0 5%;
 }
 
 /* Main First Section End */
@@ -323,4 +346,15 @@ header .col:nth-of-type(2) {
     font-weight: 500;
 }
 
-/* Main Second Section End*/
+/* Main Second Section End */
+/* ::::::::::::::::::::::::::::::::::::::::::::::: */
+/* Main Third Section */
+
+.main-third-section {
+    background-color: #FFFFFF;
+}
+
+.main-third-section li img {
+    width: 125px;
+    padding: 10px;
+}
