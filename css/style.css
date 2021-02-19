@@ -321,9 +321,7 @@ header .col:last-child {
 
 .main-second-section {
     background: linear-gradient(45deg,#00a4bd,#00bda5);
-    height: 650px;
     text-align: center;
-    padding: 100px 0;
 }
 
 .main-second-section .text-body,
