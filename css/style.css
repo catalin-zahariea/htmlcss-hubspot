@@ -172,7 +172,6 @@ header .col:last-child {
 .header-jumbotron {
     height: 550px;
     background-image: url(../img/jumbotron.png);
-    background-size: fixed;
     background-position: bottom right;
     background-repeat: no-repeat;
     background-color: #FFF6EF;
